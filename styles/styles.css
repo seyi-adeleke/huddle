@@ -1,0 +1,65 @@
+body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url('../images/bg-desktop.svg');
+    font-family: 'Open Sans', sans-serif;
+    display: grid;
+}
+
+.menu {
+    grid-column-start: 1;
+    padding-bottom: 50px;
+}
+
+.hero {
+    display: inline-grid;
+    padding-left:   20px;
+    padding-right: 15px;
+}
+
+.hero_image {
+    grid-column: 1 / span 1;
+    grid-row: row ;
+}
+
+.hero_copy {
+    grid-column: col 2  / span 1 ;
+    grid-row: row ;
+}
+
+.hero_copy_header {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+
+.footer {
+    display: inline-grid;
+}
+
+.footer_social {
+    grid-row: row ;
+    grid-column: col 10  / span 1 ;
+}
+
+p {
+    color: whitesmoke;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    display: inline-block;
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.fab {
+    margin-top: 7px;
+}
